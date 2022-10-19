@@ -7,7 +7,6 @@ int main()
     char Gab[50], Resp[50];
     float NOTA, PA, S, M;
 
-
     printf("Digite a quantidade de questoes da prova: ");
     do{
     scanf("%d", &Q);
@@ -52,7 +51,6 @@ int main()
     for (i=0; i<Q; i++)
     printf("[%c] ", Resp[i]);
 
-
     NOTA=0;
 
     for(i=0; i<Q; i++)
@@ -64,9 +62,6 @@ int main()
     else
     printf("\nREPROVADO: NOTA %.2f", NOTA);
 
-
-
-
     }
     }
 
@@ -77,8 +72,6 @@ int main()
     PA=NOTA/TTal;
 
     printf("\n\nPorcentagem de aprovacao: %.2f%%", PA);
-
-
 
     return 0;
 }
