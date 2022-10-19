@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/// Eduardo de Faria Rios Perucello RA: 22009978
-/// Vinícius Afonso Alvarez - RA: 22006181
+
 int main()
 {
     int Q, i, RA, TTal;
