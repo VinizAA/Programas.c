@@ -9,7 +9,13 @@ int main()
 
     while (tolower(sn)=='s')
     {
-        scanf ("%f%c%f", &op1,&opc,&op2);
+        printf("Digite o primeiro numero: ");
+        scanf("%f", &op1);
+        printf("Digite o segundo numero: ");
+        scanf("%f", &op2);
+        printf("Digite a operacao que deseja realizar: ");
+        getchar();
+        scanf("%c", &opc);
 
         switch (opc)
         {
